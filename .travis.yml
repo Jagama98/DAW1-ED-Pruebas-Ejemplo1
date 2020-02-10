@@ -17,7 +17,7 @@ jdk:
 #        secure: ${SONAR_TOKEN}
 script:
 #  - ./gradlew build test jacocoTestReport
-  -gradle test
+  - gradle test
   - echo "Hola, soy Javier García. Hoy es dia 10 de Febrero."
   - ls build
   - gradle run
